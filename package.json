@@ -1,0 +1,12 @@
+{
+  "name": "Scorebird to JSON via HTTP",
+  "type": "module",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.2.7",
+    "aws-iot-device-sdk-v2": "^1.7.0",
+    "aws-sdk": "^2.1087.0",
+    "yargs": "^17.3.1",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
