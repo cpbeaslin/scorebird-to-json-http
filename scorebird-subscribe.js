@@ -8,7 +8,6 @@ dotenv.config(); // This loads the variables from .env file to process.env
 
 const awsEndpoint = process.env.AWS_ENDPOINT;
 const identityPoolId = process.env.IDENTITY_POOL_ID;
-const apiKey = process.env.API_KEY;
 const region = process.env.REGION; // Assuming the region based on the provided endpoint
 
 const rl = readline.createInterface({
@@ -19,7 +18,7 @@ const rl = readline.createInterface({
 const menu = [];
 
 // Iterate over environment variables to populate the menu
-for (let i = 1; i <= process.env.MAX_3LOCATIONS; i++) {
+for (let i = 1; i <= process.env.MAX_LOCATIONS; i++) {
   const name = process.env[`LOCATION_${i}_NAME`];
   const id = process.env[`LOCATION_${i}_ID`];
   if (name && id) {
