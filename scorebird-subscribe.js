@@ -19,7 +19,7 @@ const rl = readline.createInterface({
 const menu = [];
 
 // Iterate over environment variables to populate the menu
-for (let i = 1; i <= process.env.MAX_LOCATIONS; i++) {
+for (let i = 1; i <= process.env.MAX_3LOCATIONS; i++) {
   const name = process.env[`LOCATION_${i}_NAME`];
   const id = process.env[`LOCATION_${i}_ID`];
   if (name && id) {

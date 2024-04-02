@@ -1,5 +1,5 @@
 {
-  "name": "Scorebird to JSON via HTTP",
+  "name": "scorebird-to-json-http",
   "type": "module",
   "dependencies": {
     "amazon-cognito-identity-js": "^5.2.7",
